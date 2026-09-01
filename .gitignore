@@ -1,0 +1,8 @@
+data/
+outputs/*.shp
+outputs/*.shx
+outputs/*.dbf
+outputs/*.prj
+outputs/intermediate/
+*.DTA
+*.dta
