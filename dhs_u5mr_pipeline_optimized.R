@@ -45,8 +45,6 @@ countries <- list(
 )
 
 ## ---- 2. SET WHICH COUNTRY TO RUN ----
-## Change this one line and re-run the WHOLE script fresh (restart R between each!)
-## Order suggestion: bangladesh -> nepal -> pakistan -> india (India is heaviest, do it last)
 TARGET_COUNTRY <- "india"
 
 cn   <- TARGET_COUNTRY
