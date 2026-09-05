@@ -12,10 +12,10 @@ library(broom.mixed)  # tidy model output
 
 ## ---- 1. FILE PATHS (same as your main script) ----
 countries <- list(
-  bangladesh = "C:/Users/User/Downloads/BD_2022_DHS_08312026_2337_222099/BDBR81DT/BDBR81FL.DTA",
-  nepal      = "C:/Users/User/Downloads/NP_2022_DHS_08312026_2342_222099/NPBR82DT/NPBR82FL.DTA",
-  pakistan   = "C:/Users/User/Downloads/PK_2017-18_DHS_09012026_013_222099/PKBR71DT/PKBR71FL.DTA",
-  india      = "C:/Users/User/Downloads/IABR7EDT/IABR7EFL.DTA"
+  bangladesh = "C:/Users/User/Downloads/DHS DATASETS/BD_2022_DHS_08312026_2337_222099/BDBR81DT/BDBR81FL.DTA",
+  nepal      = "C:/Users/User/Downloads/DHS DATASETS/NP_2022_DHS_08312026_2342_222099/NPBR82DT/NPBR82FL.DTA",
+  pakistan   = "C:/Users/User/Downloads/DHS DATASETS/PK_2017-18_DHS_09012026_013_222099/PKBR71DT/PKBR71FL.DTA",
+  india      = "C:/Users/User/Downloads/DHS DATASETS/IABR7EDT/IABR7EFL.DTA"
 )
 
 ## ---- 2. BUILD CHILD-LEVEL DATASET PER COUNTRY ----
