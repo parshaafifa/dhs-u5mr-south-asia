@@ -90,3 +90,5 @@ write.csv(model_results, "outputs/multilevel_model_results.csv", row.names = FAL
 
 cat("\nDone. Results saved to outputs/multilevel_model_results.csv\n")
 cat("Columns: term | estimate (odds ratio) | std.error | statistic | p.value | conf.low | conf.high\n")
+summary(model_results)
+table(br$v106, useNA = "ifany")
