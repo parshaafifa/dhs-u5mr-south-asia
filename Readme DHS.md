@@ -27,7 +27,6 @@ Raw DHS microdata (Births Recode, GPS cluster files) are **not included** in thi
 4. **Spatial autocorrelation** — Global Moran's I and Local Indicators of Spatial Association (LISA) to identify significant mortality clusters (hotspots/coldspots).
 5. **Determinants analysis** — two complementary weighted regression approaches on pooled individual-level data across all four countries:
    - `weighted_multilevel_model_glmer.R` — multilevel (mixed-effects) logistic regression with a random intercept per DHS cluster, DHS sample weight applied as a prior weight. **Primary model.**
-   - `svyglm_model.R` — design-based weighted logistic regression (survey-adjusted standard errors, no random effect). Used as a robustness check.
 
 ## Repository Contents
 
@@ -39,7 +38,6 @@ outputs/
   choropleth_<country>.png         # U5MR choropleth maps
   region_u5mr_<country>.csv        # Region-level U5MR summary
   multilevel_model_results.csv     # Odds ratios from the primary (glmer) model
-  svyglm_model_results.csv         # Odds ratios from the secondary (svyglm) model
 ```
 
 ## Covariates Included in Determinants Models
@@ -59,4 +57,4 @@ R (≥ 4.5) with packages: `haven`, `dplyr`, `sf`, `spdep`, `tmap`, `rmapshaper`
 ## Author
 
 Kotha — Department of Statistics and Data Science, Jahangirnagar University, Bangladesh
-Supervised by Md Moyazzem Hossain Sobuj
+
